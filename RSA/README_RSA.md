@@ -1,6 +1,6 @@
 ## RSA
 
-Here you can find a simple implementation of the standard RSA algorithm for asymmetric key cryptography in C. Note that this implementation is secure, but the protocol one uses can be insecure. In particular it is possible to carry out the following Chosen Chipertext Attack against RSA (which is an attack against the protocol and not against the standard algorithm):
+Here you can find a simple implementation of the standard [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) algorithm for asymmetric key cryptography in C. Note that this implementation is secure, but the protocol one uses can be insecure. In particular it is possible to carry out the following Chosen Chipertext Attack against RSA (which is an attack against the protocol and not against the standard algorithm):
 - An evesdropper $E$ monitoring the comunication between $A$ and $B$ manages to get a ciphertext $c$;
 - $E$ would like to recover the message $m=c^d$ where $d$ is the (hard) inverse of the public key $e$ of $A$ $mod(n=(p-1)(q-1))$ as in the standard RSA algorithm); 
 - To recover $m$ choose a random number $r < n$, get the public key $e$ and compute $x=r^e\ mod(n)$;
