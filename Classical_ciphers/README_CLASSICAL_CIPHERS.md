@@ -11,5 +11,5 @@ Be careful since these ciphers are not secure! For example many well known attac
 
 ### What's in here?
 Here you can find the following classical ciphers:
-- `cesare.c` which implements a generalization of the Cesar's cipher
-- `vigenere.c` which implements the Vigenere cipher 
+- `cesare.c` which implements a generalization of the [Cesar's cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
+- `vigenere.c` which implements the [Vigenere cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
