@@ -1,6 +1,6 @@
 ## Classical ciphers
 We will develop some [classical ciphers](https://en.wikipedia.org/wiki/Classical_cipher) in C. Once the files have been downloaded the code can be executed using in sequence the following commands:
-- `gcc -<programName>.c` wich will compile the file `<programName.c>` and produce the output file `a.out`
+- `gcc <programName>.c` wich will compile the file `<programName.c>` and produce the output file `a.out`
 - `./a` wich will execute the code obtained in the previous point.
 
 It is possible to try the code online:
